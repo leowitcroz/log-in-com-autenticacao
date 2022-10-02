@@ -1,0 +1,65 @@
+#sessao{
+    background-color: rgb(25, 25, 136);
+
+}
+
+.conteudo{
+   
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.campos{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 6, 112);
+   height: 70vh;
+   margin-top: 11%;
+   width: 50%;
+   padding-right: 24%;
+   color: white;
+}
+
+label{
+    margin-right: 40%;
+    margin-bottom: 2%;
+}
+
+input{
+    padding: 1%;
+    border-radius: 5px;
+    outline: 0;
+    padding-left: 2%;
+}
+
+#user-text{
+margin-top: 1%;
+}
+
+#pass-text{
+    margin-top: 1%;
+}
+
+#button{
+    padding: 3%;
+    width: 32%;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+#button:hover{
+font-weight: 700;
+text-decoration: underline;
+}
+
+img{
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    height: 40%;
+    width: 16%;
+}
